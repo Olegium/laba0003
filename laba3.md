@@ -1,18 +1,19 @@
-
+У МЕНЯ ЛАБА 3 СЛЕТЕЛА ВОТ ЧТО УДАЛОСЬ ВОССТАНОВИТЬ
+В ОБЩИХ ЧЕРТАХ
 ```bash
 cd ~/formatter_lib2
 mkdir build && cd build
-cmake ..
+cmake ~/formatter_lib2/CMakeLists.txt
 make
 
 cd ~/formatter_ex
 mkdir build && cd build
-cmake ..
+cmake ~/formatter_ex/CMakeLists.txt
 make
 
 cd ~/hello_world
 mkdir build && cd build
-cmake ..
+oleg@NotebookLenovo:~/hello_world2$ cmake CMakeLists.txt
 make
 ```
 CMakeLists.txt для formatter_lib
@@ -246,7 +247,7 @@ oleg@NotebookLenovo:~/formatter_lib2$ cmake ~/formatter_lib2/CMakeLists.txt
 oleg@NotebookLenovo:~/formatter_lib2$ cd
 oleg@NotebookLenovo:~$ mkdir formatter_ex
 oleg@NotebookLenovo:~$ cd formatter_ex
-oleg@NotebookLenovo:~/formatter_ex$
+oleg@NotebookLenovo:$
 oleg@NotebookLenovo:~/formatter_ex$
 oleg@NotebookLenovo:~/formatter_ex$ s GNU 13.3.0
 oleg@NotebookLenovo:~/formatter_ex$
