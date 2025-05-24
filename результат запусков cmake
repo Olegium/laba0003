@@ -1,0 +1,10 @@
+              FORMATTER_LIB2
+oleg@NotebookLenovo:~/formatter_lib2$ cmake ~/formatter_lib2/CMakeLists.txt
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/oleg/formatter_lib2
+oleg@NotebookLenovo:~/formatter_lib2$ make
+[ 50%] Building CXX object CMakeFiles/formatter.dir/formatter.cpp.o
+[100%] Linking CXX static library libformatter.a
+[100%] Built target formatter
+oleg@NotebookLenovo:~/formatter_lib2$
