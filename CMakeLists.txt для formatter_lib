@@ -1,0 +1,38 @@
+  GNU nano 7.2                                                          cmake_minimum_required(VERSION 3.10)
+project(formatter)
+
+if(POLICY CMP0077)
+    cmake_policy(SET CMP0077 NEW)
+endif()
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(SOURCES
+    formatter.cpp
+)
+
+set(HEADERS
+    formatter.h
+)
+
+add_library(formatter STATIC ${SOURCES} ${HEADERS})
+
+target_include_directories(formatter
+    PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+if(UNIX)
+    target_compile_options(formatter PRIVATE -Wall -Wextra -pedantic)
+endif()
+[CMakeLists.txt](https://github.com/user-attachments/files/19939857/CMakeLists.txt)
+
+install(TARGETS formatter
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib
+)
+
+install(FILES ${HEADERS}
+    DESTINATION include/formatter
+)
