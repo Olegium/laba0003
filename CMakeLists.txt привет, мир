@@ -1,6 +1,0 @@
-  GNU nano 7.2                                 CMakeLists.txt                                           # Создаем исполняемый файл hello_world
-add_executable(hello_world
-    ~/hello_world2/hello_world.cpp
-)
-
-# Подключаем библиотеку formatter_ex
