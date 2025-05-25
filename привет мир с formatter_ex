@@ -1,11 +1,1 @@
-  GNU nano 7.2                                 hello_world.cpp                                          #include <iostream>
-
-#include "/home/oleg/formatter_ex/formatter_ex.h"
-
-int main()
-{
-    formatter(std::cout, "hello, world!");
-}
-
-
 
